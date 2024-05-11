@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T14:00:58.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0 (Edition std-1)" etag="lnWovH1ZdVcLQ6_Dg9a2" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T14:19:59.352Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0 (Edition std-1)" etag="hJAWFHSeJAFl-R_F2yiw" version="24.4.0" type="github">
   <diagram name="Page-1" id="zSvLlB_tGy_QWsFv92lQ">
-    <mxGraphModel dx="4350" dy="6858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1832" dy="5348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,7 @@
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-24" target="GDv7yHvzLEtA6fUQxvJh-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object placeholders="1" c4Name="Microsserviço de Registro de Eventos" c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Registra as movimentações dos produtos (fabricação, passagem pelo CD, recebimento pelo lojista" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-24">
+        <object placeholders="1" c4Name="Microsserviço de Registro de Eventos" c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Registra as movimentações dos produtos (fabricação, passagem pelo CD, recebimento pelo lojista e gera um código de rastreio único" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-24">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
             <mxGeometry x="690" y="-1930" width="240" height="160" as="geometry" />
           </mxCell>
@@ -64,11 +64,15 @@
             <mxGeometry x="1270" y="-1930" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-26" target="GDv7yHvzLEtA6fUQxvJh-105">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="-2510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-26" target="GDv7yHvzLEtA6fUQxvJh-110">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="-2510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <object placeholders="1" c4Name="Database" c4Type="Container" c4Technology="e.g. Oracle Database 12" c4Description="Armazena as informações dos produtos e seus eventos de rastreio." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-26">
           <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
@@ -146,10 +150,7 @@
             <mxGeometry x="1580" y="-2820" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-66" target="GDv7yHvzLEtA6fUQxvJh-75">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object placeholders="1" c4Name="Permite buscar o histórico de um produto pelo seu código EPC RFID OU SKU" c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Tela De Consulta" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-66">
+        <object placeholders="1" c4Name="Permite buscar o histórico de um produto pelo seu código EPC RFID OU SKU, CODIGO REMESSA, OU CODIGO DE RASTREIO" c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Tela De Consulta" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-66">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
             <mxGeometry x="1870" y="-2820" width="240" height="160" as="geometry" />
           </mxCell>
@@ -176,22 +177,25 @@
             <mxGeometry x="540" y="-2230" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-75" target="GDv7yHvzLEtA6fUQxvJh-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <object placeholders="1" c4Name="Registra novos produtos com suas informações (nome, lote, validade) e código RFID." c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Cadastro de Produtos" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-75">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="1730" y="-2530" width="240" height="160" as="geometry" />
+            <mxGeometry x="1870" y="-2570" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-62" target="GDv7yHvzLEtA6fUQxvJh-75">
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-81" target="GDv7yHvzLEtA6fUQxvJh-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Grava o evento de fabricação de um produto com data/hora e local." c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Registro de fabricação" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-81">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="2000" y="-2530" width="240" height="160" as="geometry" />
+            <mxGeometry x="2160" y="-2570" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Grava o evento de passagem de um produto pelo CD com data/hora e local." c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Registro de Passagem Pelo CD" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-84">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="2270" y="-2530" width="240" height="160" as="geometry" />
+            <mxGeometry x="2160" y="-2360" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-86" value="FLUXO DA APLICAÇÃO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -199,7 +203,7 @@
         </mxCell>
         <object placeholders="1" c4Name="Grava o evento de recebimento de um produto pelo lojista com data/hora e local." c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Registro de recebimento pelo Lojista" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-87">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="2540" y="-2530" width="240" height="160" as="geometry" />
+            <mxGeometry x="2160" y="-2160" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-21" target="GDv7yHvzLEtA6fUQxvJh-74">
@@ -208,43 +212,16 @@
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-23" target="GDv7yHvzLEtA6fUQxvJh-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-126" target="GDv7yHvzLEtA6fUQxvJh-62">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <object placeholders="1" c4Name="Retorna todos os eventos de um produto ordenados por data/hora.&#xa;" c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Consulta de Histórico" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-103">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="1730" y="-2320" width="240" height="160" as="geometry" />
+            <mxGeometry x="1870" y="-2160" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Retorna o status atual de um produto (em fabricação, em trânsito, entregue)." c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Consulta de Status" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-104">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="2000" y="-2320" width="240" height="160" as="geometry" />
+            <mxGeometry x="1870" y="-2360" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-105" value="PRODUTOS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-2510" width="140" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-106" value="EPC" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDv7yHvzLEtA6fUQxvJh-105">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-107" value="SKU" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDv7yHvzLEtA6fUQxvJh-105">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-108" value="NOME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDv7yHvzLEtA6fUQxvJh-105">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-110" value="EVENTOS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-2510" width="140" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-111" value="TIPOEVENTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDv7yHvzLEtA6fUQxvJh-110">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-112" value="DATA/hora" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDv7yHvzLEtA6fUQxvJh-110">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-113" value="LOCAL&lt;br&gt;PRODUTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDv7yHvzLEtA6fUQxvJh-110">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-119" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png;" vertex="1" parent="1">
           <mxGeometry x="790" y="-2820" width="69.03" height="60" as="geometry" />
         </mxCell>
@@ -252,7 +229,7 @@
           <mxGeometry x="97.78" y="-2760" width="124.44" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-122" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ramonduraes.net/wp-content/uploads/2021/04/key.png;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-2630" width="100" height="100" as="geometry" />
+          <mxGeometry x="440" y="-2580" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-21" target="GDv7yHvzLEtA6fUQxvJh-126">
           <mxGeometry relative="1" as="geometry">
@@ -297,6 +274,19 @@
         </object>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-138" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png;" vertex="1" parent="1">
           <mxGeometry x="1054.8899999999999" y="-2151.04" width="106.59" height="91.04" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-144" value="PRODUTOS&lt;div&gt;&lt;br&gt;EPC&lt;/div&gt;&lt;div&gt;SKU&lt;br&gt;NOME&lt;br&gt;LOTE&lt;br&gt;VALIDADE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-2510" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-145" value="EVENTOS&lt;div&gt;&lt;br&gt;TIPO EVENTO&lt;div&gt;DATE&lt;br&gt;LOCAL&lt;br&gt;PRODUTOS&lt;br&gt;REMESSA&lt;br&gt;CODIGO RASTREIO&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-2510" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-62" target="GDv7yHvzLEtA6fUQxvJh-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1700" y="-2500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
