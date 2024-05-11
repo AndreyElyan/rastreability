@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T13:53:45.843Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0 (Edition std-1)" etag="m0sQxe2hRHTj4wX-DfW-" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T14:00:58.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0 (Edition std-1)" etag="lnWovH1ZdVcLQ6_Dg9a2" version="24.4.0" type="github">
   <diagram name="Page-1" id="zSvLlB_tGy_QWsFv92lQ">
     <mxGraphModel dx="4350" dy="6858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-66" target="GDv7yHvzLEtA6fUQxvJh-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object placeholders="1" c4Name="Permite buscar o histórico de um produto pelo seu código EPC RFID" c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Tela De Consulta" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-66">
+        <object placeholders="1" c4Name="Permite buscar o histórico de um produto pelo seu código EPC RFID OU SKU" c4Type="Container" c4Technology="e.g. JavaScript" c4Description="Tela De Consulta" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-66">
           <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
             <mxGeometry x="1870" y="-2820" width="240" height="160" as="geometry" />
           </mxCell>
@@ -159,7 +159,7 @@
             <mxGeometry x="2160" y="-2820" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-62" target="GDv7yHvzLEtA6fUQxvJh-20">
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-136" target="GDv7yHvzLEtA6fUQxvJh-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-62" target="GDv7yHvzLEtA6fUQxvJh-66">
@@ -283,6 +283,20 @@
         </mxCell>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-134" target="GDv7yHvzLEtA6fUQxvJh-62">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-62" target="GDv7yHvzLEtA6fUQxvJh-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="-2740" as="sourcePoint" />
+            <mxPoint x="780" y="-2740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="CONECTA COM A APLICAÇÃO PARA REALIZAR A LEITURA DOS EPCS JUNTO AO HARDWARE DA ANTENA" c4Type="Component" c4Technology="" c4Description="Módulo RFID" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="GDv7yHvzLEtA6fUQxvJh-136">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1161.48" y="-2800" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-138" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png;" vertex="1" parent="1">
+          <mxGeometry x="1054.8899999999999" y="-2151.04" width="106.59" height="91.04" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
