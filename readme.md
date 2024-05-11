@@ -6,7 +6,7 @@ Este documento descreve a arquitetura do sistema de rastreabilidade de produtos,
 
 ## Diagrama
 
-![alt text](image.png)
+![alt text](RastreabilityDiagram.drawio.png)
 
 ## Estrutura
 
