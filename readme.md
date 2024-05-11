@@ -4,6 +4,10 @@
 
 Este documento descreve a arquitetura do sistema de rastreabilidade de produtos, que permite monitorar os produtos desde a fábrica até o lojista, utilizando etiquetas RFID. A arquitetura é composta por microsserviços, cada um responsável por uma funcionalidade específica, e é gerenciada por um API Gateway.
 
+## Diagrama
+
+![alt text](image.png)
+
 ## Estrutura
 
 ### Contexto (Nível 1)
