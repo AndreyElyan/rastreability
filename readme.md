@@ -15,6 +15,8 @@ Este documento descreve a arquitetura do sistema de rastreabilidade de produtos,
 - **Sistema de Rastreabilidade de Produtos**: Centraliza o monitoramento dos produtos.
 - **Atores**: Fábrica, Centro de Distribuição (CD), Lojista.
 
+![alt text](level1-actors.png)
+
 ### Container (Nível 2)
 
 - **Aplicação Web/Mobile**: Interface para consulta do histórico de rastreio.
@@ -24,16 +26,28 @@ Este documento descreve a arquitetura do sistema de rastreabilidade de produtos,
 - **Microsserviço de Registro de Eventos**: Registra movimentações dos produtos.
 - **Microsserviço de Consulta**: Permite consultar o histórico de rastreio.
 
+![alt text](level2.png)
+
 ### Componente (Nível 3)
 
-- **Aplicação Web/Mobile**: Interface de usuário.
-- **API Gateway**: Gerencia as rotas e comunicações entre microsserviços.
-- **Serviço de Autenticação (Keycloak)**: Autenticação e autorização.
-- **Microsserviços**: Implementados em Node.js, responsáveis por cadastro, registro de eventos e consulta.
+- **Frontend**: Interface do usuário para consulta de histórico de rastreio.
+- **Backend**: API Gateway e microsserviços.
+
+![alt text](level3.png)
 
 ### Código (Nível 4)
 
-- Implementação detalhada dos microsserviços e API Gateway em Node.js.
+- **Frontend**: Desenvolvido em React.
+- **Backend**: Desenvolvido em Node.js, Express.
+- **Microsserviço de Cadastro de Produtos**: Registra produtos com etiquetas RFID.
+- **Microsserviço de Registro de Eventos**: Registra movimentações dos produtos.
+- **Microsserviço de Consulta**: Permite consultar o histórico de rastreio.
+
+![alt text](level4.png)
+
+## Diagrama UML
+
+![alt text](level4-uml.png)
 
 ## Rotas e Serviços
 
