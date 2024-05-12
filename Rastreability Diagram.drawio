@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T17:18:59.272Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0 (Edition std-1)" etag="Qpoaewl4gRkgaGSgphLG" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T17:24:49.131Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0 (Edition std-1)" etag="TcGPewQCQ-PgfK99YX8V" version="24.4.0" type="github">
   <diagram name="Page-1" id="zSvLlB_tGy_QWsFv92lQ">
     <mxGraphModel dx="1688" dy="5039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -341,33 +341,6 @@
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-262" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png;" vertex="1" parent="GDv7yHvzLEtA6fUQxvJh-174">
           <mxGeometry x="85" y="8.96" width="85.37" height="52.22" as="geometry" />
         </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-177" value="O sistema recebe um evento de rastreio&lt;br&gt;(por exemplo, um produto capilar sendo fabricado)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-1020" width="200" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-180" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="350" y="-880" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-184" value="Ação: O sistema cria uma instância de &lt;b&gt;Evento&lt;/b&gt;, preenchendo os atributos relevantes." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-830" width="220" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-185" value="Ação: O sistema salva o &lt;b&gt;EVENTO&lt;/b&gt; no banco de Dados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-620" width="220" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-186" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="350" y="-670" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-187" value="Ação: O sistema gera um código de rastreio para remessa, se aplicável" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-410" width="220" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-188" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="350" y="-460" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-190" value="Fim: o Sistema Registra o evento no histórico de rastreio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-190" width="220" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-191" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-240" width="100" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-215" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="990" y="-1360" width="220" height="270" as="geometry" />
         </mxCell>
@@ -595,7 +568,10 @@
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-345" value="Registro de Eventos" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1700" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GDv7yHvzLEtA6fUQxvJh-347" value="Registro de Eventos" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-360" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-347" target="GDv7yHvzLEtA6fUQxvJh-359">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-347" value="Consulta" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2090" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-352" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-349" target="GDv7yHvzLEtA6fUQxvJh-351">
@@ -610,8 +586,58 @@
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-351" value="Ação: O sistema cria uma instância de&amp;nbsp;&lt;b&gt;Evento&lt;/b&gt;, preenchendo os atributos relevantes." style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1685" y="870" width="150" height="125" as="geometry" />
         </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-356" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-353" target="GDv7yHvzLEtA6fUQxvJh-355">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GDv7yHvzLEtA6fUQxvJh-353" value="Ação: O sistema salva o&amp;nbsp;&lt;b&gt;EVENTO&lt;/b&gt;&amp;nbsp;no banco de Dados" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1685" y="1075" width="150" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-358" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-355" target="GDv7yHvzLEtA6fUQxvJh-357">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-355" value="Ação: O sistema gera um código de rastreio para remessa, se aplicável" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1107.5" width="250" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-357" value="Fim: o Sistema Registra o evento no histórico de rastreio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1971.25" y="900" width="167.5" height="136.25" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-362" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-359" target="GDv7yHvzLEtA6fUQxvJh-361">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-359" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Início: O sistema recebe uma consulta de rastreio.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2085" y="665" width="130" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-364" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-361" target="GDv7yHvzLEtA6fUQxvJh-363">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-361" value="Ação: O sistema busca os eventos de rastreio no banco de dados." style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2295" y="665" width="175" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-366" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-363" target="GDv7yHvzLEtA6fUQxvJh-365">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-363" value="Ação: O sistema organiza os eventos por data/hora e local." style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2295" y="1223" width="175" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-372" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-365">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2541.255" y="963.1333333333341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-374" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GDv7yHvzLEtA6fUQxvJh-365" target="GDv7yHvzLEtA6fUQxvJh-373">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-365" value="O sistema encontrou a remessa ou codigo de rastreio" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2313.13" y="890" width="138.75" height="146.25" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-370" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="1128" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-373" value="Remessa/Rastreio&lt;div&gt;não encontrado&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2541.255" y="933.125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDv7yHvzLEtA6fUQxvJh-375" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="938" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
